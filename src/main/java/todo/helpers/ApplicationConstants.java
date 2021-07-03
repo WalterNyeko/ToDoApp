@@ -1,6 +1,6 @@
 package todo.helpers;
 
-public class APIConstants {
+public class ApplicationConstants {
     public final static String EDIT_TODO_LIST = "Edit To-Do List";
     public final static String EDIT_TODO_ITEM = "Edit To-Do Item";
     public final static String ADD_TODO_LIST = "Add To-Do List";
@@ -45,5 +45,8 @@ public class APIConstants {
     public final static String LOAD_FROM_EXTERNAL_STORAGE = "Load from storage";
     public final static String MISSING_TITLE = "Missing title of the to-do list";
     public final static String MISSING_HEADER_TITLE = "Provide Title";
+    public final static String APPLICATION_TITLE = "To-Do List Application";
+    public final static String TITLE_DUPLICATION = "Title Duplication";
+    public final static String PROVIDE_VALID_TITLE = "Provide a valid Title";
 
 }
